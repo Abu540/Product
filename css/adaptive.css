@@ -9,7 +9,7 @@
     flex-direction: column-reverse;
   }
   .work img {
-    max-width: 338px;
+    max-width: 300px;
   }
 
   .work-content h1 {
@@ -54,5 +54,40 @@
 @media (max-width: 600px) {
   .header-logo {
     gap: 8px;
+  }
+}
+@media (max-width: 743px) {
+  .boxs-1 .box:nth-child(1) {
+    order: -10;
+  }
+  .boxs-1 .box:nth-child(2) {
+    order: -7;
+  }
+  .boxs-1 .box:nth-child(3) {
+    order: -9;
+  }
+  .boxs-1 .box:nth-child(4) {
+    order: -8;
+  }
+  .box p {
+    text-align: center;
+    max-width: 250px;
+  }
+
+  .recources {
+  }
+  .recources-content {
+    flex-direction: column;
+  }
+}
+@media (max-width: 831) {
+  .recources {
+    text-align: center;
+  }
+  .recources-content {
+    flex-direction: column;
+  }
+  .cart {
+    max-width: 550px;
   }
 }
